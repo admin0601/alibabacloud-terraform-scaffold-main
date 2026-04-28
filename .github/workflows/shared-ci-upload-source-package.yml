@@ -83,8 +83,8 @@ jobs:
           echo "Creating source package..."
           
           # Make yq script executable
-          chmod +x governance/scripts/yaml_parser.py
-          chmod +x governance/scripts/yq
+          chmod +x scripts/yaml_parser.py
+          chmod +x /scripts/yq
 
           # Create symlink to simulate yq command
           mkdir -p ~/bin
